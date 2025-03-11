@@ -9,6 +9,8 @@ sites:
     url: https://en.wikipedia.org
   - name: Serv00
     url: https://veronicaqd.serv00.net
+  - name: 4d4y
+    url: https://www.4d4y.com
 #  - name: Hacker News
 #    url: https://news.ycombinator.com
 #  - name: Test Broken Site

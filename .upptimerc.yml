@@ -1,5 +1,5 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
+owner:podcctv # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
 
 sites:
@@ -11,6 +11,19 @@ sites:
     url: https://veronicaqd.serv00.net
   - name: 4d4y
     url: https://www.4d4y.com
+  - name: flanker.me
+    url: https://flanker.me
+    maxResponseTime: 1000
+  - name: ROS
+    url: https://ros.qudi.online
+    expectedStatusCodes:
+      - 200
+  - name: Google DNS 1
+    check: "tcp-ping"
+    url: 8.8.4.4
+    port: 53
+  - name: www
+    url: $WWW_URL
 #  - name: Hacker News
 #    url: https://news.ycombinator.com
 #  - name: Test Broken Site
@@ -24,7 +37,7 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  # cname: demo.upptime.js.org
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime

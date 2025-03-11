@@ -9,21 +9,20 @@ sites:
     url: https://en.wikipedia.org
   - name: Serv00
     url: https://veronicaqd.serv00.net
+    icon: https://www.serv00.com/static/ct8/img/logo.jpg
   - name: 4d4y
     url: https://www.4d4y.com
   - name: flanker.me
     url: https://flanker.me
     maxResponseTime: 1000
-  - name: ROS
-    url: https://ros.qudi.online
-    expectedStatusCodes:
-      - 200
   - name: Google DNS 1
     check: "tcp-ping"
     url: 8.8.4.4
     port: 53
-  - name: www
-    url: $WWW_URL
+  - name: Google DNS 2
+    check: "tcp-ping"
+    url: 8.8.8.8
+    port: 53
 #  - name: Hacker News
 #    url: https://news.ycombinator.com
 #  - name: Test Broken Site

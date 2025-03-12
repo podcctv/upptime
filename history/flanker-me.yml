@@ -1,7 +1,7 @@
 url: https://flanker.me
-status: degraded
+status: up
 code: 200
-responseTime: 11750
-lastUpdated: 2025-03-12T14:49:04.417Z
+responseTime: 914
+lastUpdated: 2025-03-12T14:57:13.556Z
 startTime: 2025-03-11T06:38:13.267Z
 generator: Upptime <https://github.com/upptime/upptime>

@@ -76,19 +76,19 @@
     "url": "https://flanker.me",
     "icon": "https://icons.duckduckgo.com/ip3/flanker.me.ico",
     "slug": "flanker-me",
-    "status": "degraded",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 1637,
-    "timeDay": 4403,
-    "timeWeek": 1637,
-    "timeMonth": 1637,
-    "timeYear": 1637,
+    "status": "up",
+    "uptime": "99.58%",
+    "uptimeDay": "99.43%",
+    "uptimeWeek": "99.58%",
+    "uptimeMonth": "99.58%",
+    "uptimeYear": "99.58%",
+    "time": 1581,
+    "timeDay": 3531,
+    "timeWeek": 1581,
+    "timeMonth": 1581,
+    "timeYear": 1581,
     "dailyMinutesDown": {
-      "2025-03-12": 0
+      "2025-03-12": 8
     }
   },
   {

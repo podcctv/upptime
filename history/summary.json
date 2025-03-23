@@ -40,7 +40,7 @@
     "url": "https://veronicaqd.serv00.net",
     "icon": "https://www.serv00.com/static/ct8/img/logo.jpg",
     "slug": "serv00",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -51,7 +51,9 @@
     "timeWeek": 606,
     "timeMonth": 654,
     "timeYear": 654,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-03-23": 0
+    }
   },
   {
     "name": "4d4y",

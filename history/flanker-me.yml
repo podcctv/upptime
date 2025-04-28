@@ -1,7 +1,7 @@
 url: https://flanker.me
-status: up
-code: 200
-responseTime: 563
-lastUpdated: 2025-04-28T23:22:58.605Z
+status: down
+code: 500
+responseTime: 73
+lastUpdated: 2025-04-28T23:52:57.181Z
 startTime: 2025-03-11T06:38:13.267Z
 generator: Upptime <https://github.com/upptime/upptime>
